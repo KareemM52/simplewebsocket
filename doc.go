@@ -25,7 +25,7 @@
 // Call the connection SendTextMsg and SendBinMsg methods to send  messages
 // as a string/bytes. Example below:
 //
-//  binMsg := []byte{1,2,3,4,5}
+//  binMsg := []byte{1,1,3,4,5}
 //  conn.SendBinMsg(binMsg)
 //  conn.SendTextMsg("Hello!")
 package websocket
